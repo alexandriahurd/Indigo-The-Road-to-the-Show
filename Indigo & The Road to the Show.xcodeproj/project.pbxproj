@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9FAD774D224D5B0B00AA17EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAD774C224D5B0B00AA17EB /* AppDelegate.swift */; };
+		9FAD774F224D5B0B00AA17EB /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9FAD774E224D5B0B00AA17EB /* GameScene.sks */; };
+		9FAD7751224D5B0B00AA17EB /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9FAD7750224D5B0B00AA17EB /* Actions.sks */; };
+		9FAD7753224D5B0B00AA17EB /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAD7752224D5B0B00AA17EB /* GameScene.swift */; };
+		9FAD7755224D5B0B00AA17EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAD7754224D5B0B00AA17EB /* ViewController.swift */; };
+		9FAD7757224D5B0D00AA17EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FAD7756224D5B0D00AA17EB /* Assets.xcassets */; };
+		9FAD775A224D5B0D00AA17EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FAD7758224D5B0D00AA17EB /* Main.storyboard */; };
+		9FAD7766224D5B0D00AA17EB /* Indigo___The_Road_to_the_ShowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAD7765224D5B0D00AA17EB /* Indigo___The_Road_to_the_ShowTests.swift */; };
+		9FAD7771224D5B0D00AA17EB /* Indigo___The_Road_to_the_ShowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAD7770224D5B0D00AA17EB /* Indigo___The_Road_to_the_ShowUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9FAD7762224D5B0D00AA17EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9FAD7741224D5B0B00AA17EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FAD7748224D5B0B00AA17EB;
+			remoteInfo = "Indigo & The Road to the Show";
+		};
+		9FAD776D224D5B0D00AA17EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9FAD7741224D5B0B00AA17EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FAD7748224D5B0B00AA17EB;
+			remoteInfo = "Indigo & The Road to the Show";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9FAD7749224D5B0B00AA17EB /* Indigo & The Road to the Show.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Indigo & The Road to the Show.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FAD774C224D5B0B00AA17EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9FAD774E224D5B0B00AA17EB /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		9FAD7750224D5B0B00AA17EB /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		9FAD7752224D5B0B00AA17EB /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		9FAD7754224D5B0B00AA17EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9FAD7756224D5B0D00AA17EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9FAD7759224D5B0D00AA17EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9FAD775B224D5B0D00AA17EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FAD775C224D5B0D00AA17EB /* Indigo___The_Road_to_the_Show.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Indigo___The_Road_to_the_Show.entitlements"; sourceTree = "<group>"; };
+		9FAD7761224D5B0D00AA17EB /* Indigo & The Road to the ShowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Indigo & The Road to the ShowTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FAD7765224D5B0D00AA17EB /* Indigo___The_Road_to_the_ShowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Indigo___The_Road_to_the_ShowTests.swift"; sourceTree = "<group>"; };
+		9FAD7767224D5B0D00AA17EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FAD776C224D5B0D00AA17EB /* Indigo & The Road to the ShowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Indigo & The Road to the ShowUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FAD7770224D5B0D00AA17EB /* Indigo___The_Road_to_the_ShowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Indigo___The_Road_to_the_ShowUITests.swift"; sourceTree = "<group>"; };
+		9FAD7772224D5B0D00AA17EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9FAD7746224D5B0B00AA17EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FAD775E224D5B0D00AA17EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FAD7769224D5B0D00AA17EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9FAD7740224D5B0B00AA17EB = {
+			isa = PBXGroup;
+			children = (
+				9FAD774B224D5B0B00AA17EB /* Indigo & The Road to the Show */,
+				9FAD7764224D5B0D00AA17EB /* Indigo & The Road to the ShowTests */,
+				9FAD776F224D5B0D00AA17EB /* Indigo & The Road to the ShowUITests */,
+				9FAD774A224D5B0B00AA17EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9FAD774A224D5B0B00AA17EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9FAD7749224D5B0B00AA17EB /* Indigo & The Road to the Show.app */,
+				9FAD7761224D5B0D00AA17EB /* Indigo & The Road to the ShowTests.xctest */,
+				9FAD776C224D5B0D00AA17EB /* Indigo & The Road to the ShowUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9FAD774B224D5B0B00AA17EB /* Indigo & The Road to the Show */ = {
+			isa = PBXGroup;
+			children = (
+				9FAD774C224D5B0B00AA17EB /* AppDelegate.swift */,
+				9FAD774E224D5B0B00AA17EB /* GameScene.sks */,
+				9FAD7750224D5B0B00AA17EB /* Actions.sks */,
+				9FAD7752224D5B0B00AA17EB /* GameScene.swift */,
+				9FAD7754224D5B0B00AA17EB /* ViewController.swift */,
+				9FAD7756224D5B0D00AA17EB /* Assets.xcassets */,
+				9FAD7758224D5B0D00AA17EB /* Main.storyboard */,
+				9FAD775B224D5B0D00AA17EB /* Info.plist */,
+				9FAD775C224D5B0D00AA17EB /* Indigo___The_Road_to_the_Show.entitlements */,
+			);
+			path = "Indigo & The Road to the Show";
+			sourceTree = "<group>";
+		};
+		9FAD7764224D5B0D00AA17EB /* Indigo & The Road to the ShowTests */ = {
+			isa = PBXGroup;
+			children = (
+				9FAD7765224D5B0D00AA17EB /* Indigo___The_Road_to_the_ShowTests.swift */,
+				9FAD7767224D5B0D00AA17EB /* Info.plist */,
+			);
+			path = "Indigo & The Road to the ShowTests";
+			sourceTree = "<group>";
+		};
+		9FAD776F224D5B0D00AA17EB /* Indigo & The Road to the ShowUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9FAD7770224D5B0D00AA17EB /* Indigo___The_Road_to_the_ShowUITests.swift */,
+				9FAD7772224D5B0D00AA17EB /* Info.plist */,
+			);
+			path = "Indigo & The Road to the ShowUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9FAD7748224D5B0B00AA17EB /* Indigo & The Road to the Show */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FAD7775224D5B0D00AA17EB /* Build configuration list for PBXNativeTarget "Indigo & The Road to the Show" */;
+			buildPhases = (
+				9FAD7745224D5B0B00AA17EB /* Sources */,
+				9FAD7746224D5B0B00AA17EB /* Frameworks */,
+				9FAD7747224D5B0B00AA17EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Indigo & The Road to the Show";
+			productName = "Indigo & The Road to the Show";
+			productReference = 9FAD7749224D5B0B00AA17EB /* Indigo & The Road to the Show.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9FAD7760224D5B0D00AA17EB /* Indigo & The Road to the ShowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FAD7778224D5B0D00AA17EB /* Build configuration list for PBXNativeTarget "Indigo & The Road to the ShowTests" */;
+			buildPhases = (
+				9FAD775D224D5B0D00AA17EB /* Sources */,
+				9FAD775E224D5B0D00AA17EB /* Frameworks */,
+				9FAD775F224D5B0D00AA17EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9FAD7763224D5B0D00AA17EB /* PBXTargetDependency */,
+			);
+			name = "Indigo & The Road to the ShowTests";
+			productName = "Indigo & The Road to the ShowTests";
+			productReference = 9FAD7761224D5B0D00AA17EB /* Indigo & The Road to the ShowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9FAD776B224D5B0D00AA17EB /* Indigo & The Road to the ShowUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FAD777B224D5B0D00AA17EB /* Build configuration list for PBXNativeTarget "Indigo & The Road to the ShowUITests" */;
+			buildPhases = (
+				9FAD7768224D5B0D00AA17EB /* Sources */,
+				9FAD7769224D5B0D00AA17EB /* Frameworks */,
+				9FAD776A224D5B0D00AA17EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9FAD776E224D5B0D00AA17EB /* PBXTargetDependency */,
+			);
+			name = "Indigo & The Road to the ShowUITests";
+			productName = "Indigo & The Road to the ShowUITests";
+			productReference = 9FAD776C224D5B0D00AA17EB /* Indigo & The Road to the ShowUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9FAD7741224D5B0B00AA17EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Alexandria Hurd";
+				TargetAttributes = {
+					9FAD7748224D5B0B00AA17EB = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					9FAD7760224D5B0D00AA17EB = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 9FAD7748224D5B0B00AA17EB;
+					};
+					9FAD776B224D5B0D00AA17EB = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 9FAD7748224D5B0B00AA17EB;
+					};
+				};
+			};
+			buildConfigurationList = 9FAD7744224D5B0B00AA17EB /* Build configuration list for PBXProject "Indigo & The Road to the Show" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9FAD7740224D5B0B00AA17EB;
+			productRefGroup = 9FAD774A224D5B0B00AA17EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9FAD7748224D5B0B00AA17EB /* Indigo & The Road to the Show */,
+				9FAD7760224D5B0D00AA17EB /* Indigo & The Road to the ShowTests */,
+				9FAD776B224D5B0D00AA17EB /* Indigo & The Road to the ShowUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9FAD7747224D5B0B00AA17EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FAD774F224D5B0B00AA17EB /* GameScene.sks in Resources */,
+				9FAD7757224D5B0D00AA17EB /* Assets.xcassets in Resources */,
+				9FAD7751224D5B0B00AA17EB /* Actions.sks in Resources */,
+				9FAD775A224D5B0D00AA17EB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FAD775F224D5B0D00AA17EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FAD776A224D5B0D00AA17EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9FAD7745224D5B0B00AA17EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FAD7755224D5B0B00AA17EB /* ViewController.swift in Sources */,
+				9FAD7753224D5B0B00AA17EB /* GameScene.swift in Sources */,
+				9FAD774D224D5B0B00AA17EB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FAD775D224D5B0D00AA17EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FAD7766224D5B0D00AA17EB /* Indigo___The_Road_to_the_ShowTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FAD7768224D5B0D00AA17EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FAD7771224D5B0D00AA17EB /* Indigo___The_Road_to_the_ShowUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9FAD7763224D5B0D00AA17EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9FAD7748224D5B0B00AA17EB /* Indigo & The Road to the Show */;
+			targetProxy = 9FAD7762224D5B0D00AA17EB /* PBXContainerItemProxy */;
+		};
+		9FAD776E224D5B0D00AA17EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9FAD7748224D5B0B00AA17EB /* Indigo & The Road to the Show */;
+			targetProxy = 9FAD776D224D5B0D00AA17EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9FAD7758224D5B0D00AA17EB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FAD7759224D5B0D00AA17EB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9FAD7773224D5B0D00AA17EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9FAD7774224D5B0D00AA17EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		9FAD7776224D5B0D00AA17EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Indigo & The Road to the Show/Indigo___The_Road_to_the_Show.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Indigo & The Road to the Show/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AJH.Indigo---The-Road-to-the-Show";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		9FAD7777224D5B0D00AA17EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Indigo & The Road to the Show/Indigo___The_Road_to_the_Show.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Indigo & The Road to the Show/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AJH.Indigo---The-Road-to-the-Show";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		9FAD7779224D5B0D00AA17EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Indigo & The Road to the ShowTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AJH.Indigo---The-Road-to-the-ShowTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Indigo & The Road to the Show.app/Contents/MacOS/Indigo & The Road to the Show";
+			};
+			name = Debug;
+		};
+		9FAD777A224D5B0D00AA17EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Indigo & The Road to the ShowTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AJH.Indigo---The-Road-to-the-ShowTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Indigo & The Road to the Show.app/Contents/MacOS/Indigo & The Road to the Show";
+			};
+			name = Release;
+		};
+		9FAD777C224D5B0D00AA17EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Indigo & The Road to the ShowUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AJH.Indigo---The-Road-to-the-ShowUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = "Indigo & The Road to the Show";
+			};
+			name = Debug;
+		};
+		9FAD777D224D5B0D00AA17EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Indigo & The Road to the ShowUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AJH.Indigo---The-Road-to-the-ShowUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = "Indigo & The Road to the Show";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9FAD7744224D5B0B00AA17EB /* Build configuration list for PBXProject "Indigo & The Road to the Show" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FAD7773224D5B0D00AA17EB /* Debug */,
+				9FAD7774224D5B0D00AA17EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FAD7775224D5B0D00AA17EB /* Build configuration list for PBXNativeTarget "Indigo & The Road to the Show" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FAD7776224D5B0D00AA17EB /* Debug */,
+				9FAD7777224D5B0D00AA17EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FAD7778224D5B0D00AA17EB /* Build configuration list for PBXNativeTarget "Indigo & The Road to the ShowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FAD7779224D5B0D00AA17EB /* Debug */,
+				9FAD777A224D5B0D00AA17EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FAD777B224D5B0D00AA17EB /* Build configuration list for PBXNativeTarget "Indigo & The Road to the ShowUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FAD777C224D5B0D00AA17EB /* Debug */,
+				9FAD777D224D5B0D00AA17EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9FAD7741224D5B0B00AA17EB /* Project object */;
+}
